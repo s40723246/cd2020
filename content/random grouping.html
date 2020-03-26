@@ -1,0 +1,254 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- 啟用 LaTeX equations 編輯 -->
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>cd2020 40723246</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">cd2020 40723246</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='weeks.html'>weeks</a><ul class='dropdown'><li><a href='week1~week5.html'>week1~week5</a><li><a href='week6~week9.html'>week6~week9</a><li><a href='week10~week14.html'>week10~week14</a><li><a href='week15~week18.html'>week15~week18</a></li></ul><li class='has-children'><a href='assignments.html'>assignments</a><ul class='dropdown'><li class='has-children'><a href='assignment 1.html'>assignment 1</a><ul class='dropdown'><li><a href='portable system.html'>portable system</a><li><a href='random grouping.html'>random grouping</a><li><a href='Four wheel car.html'>Four wheel car</a></li></ul><li><a href='assignment 2.html'>assignment 2</a><li><a href='assignment 3.html'>assignment 3</a></li></ul><li><a href='Develop.html'>Develop</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">portable system << <a href='portable system.html'>Previous</a> <a href='Four wheel car.html'>Next</a> >> Four wheel car<br /><h1>random grouping</h1>
+<p><strong><span style="color: #ff0000;"><span data-contrast="none"><span data-wac-het="1">Random grouping</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></span></strong></p>
+<p><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="none"><span data-wac-het="1">要</span></span><span data-contrast="none"><span data-wac-het="1">進行隨機分組及隨機點名，必須先了解程式裡導入的模組及在模組中所用的</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">語法、迴</span><span data-wac-het="1">圈:</span><span data-wac-het="1">request、ast.literal_eval、random、for迴圈</span></span><span data-wac-het="2"><span> </span><br/></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">(1)<span> </span></span><span data-wac-het="1">request模組:此模組是為了可以使用</span><span data-wac-het="1"><span> </span>Python<span> </span></span><span data-wac-het="1">來下載網頁上的資料，是以</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">request模組建立適當的</span><span data-wac-het="1"><span> </span>HTTP<span> </span></span><span data-wac-het="1">請求，透過</span><span data-wac-het="1"><span> </span>HTTP<span> </span></span><span data-wac-het="1">請求從網頁伺服器下載</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">指定的資料，分為兩種模式Post、Get。</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="none"><span data-wac-het="1">上述我們將使用</span></span><b><span data-contrast="none"><span data-wac-het="1">Get</span></span></b><span data-contrast="none"><span data-wac-het="1">下載回來的資料存入到</span></span><span data-contrast="none"><span data-wac-het="1">a</span></span><span data-contrast="none"><span data-wac-het="1">變數，底下對於</span></span><span data-contrast="none"><span data-wac-het="1">a</span></span><span data-contrast="none"><span data-wac-het="1">變數我們能進行以下操作：</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<ul>
+<li data-aria-level="1" data-aria-posinset="1" data-font="Symbol" data-leveltext="" data-listid="2"><span data-contrast="none"><span data-wac-het="1">url</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span><span data-wac-het="1">: 取得</span><span data-wac-het="1">請求網址</span></span><span data-ccp-props='{"134233279":true}' data-wac-het="1"> </span></li>
+<li data-aria-level="1" data-aria-posinset="2" data-font="Symbol" data-leveltext="" data-listid="2"><span data-contrast="none"><span data-wac-het="1">status_code</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span><span data-wac-het="1">: 伺服器</span></span><span data-contrast="none"><span data-wac-het="1">回應的狀態碼</span></span><span data-ccp-props='{"134233279":true}' data-wac-het="1"> </span></li>
+<li data-aria-level="1" data-aria-posinset="3" data-font="Symbol" data-leveltext="" data-listid="2"><span data-contrast="none"><span data-wac-het="1">text</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span><span data-wac-het="1">: 取得</span><span data-wac-het="1">網頁 HTML 原始碼</span></span><span data-ccp-props='{"134233279":true}' data-wac-het="1"> </span><span data-ccp-props='{"134233279":true}' data-wac-het="1"></span></li>
+</ul>
+<p><span data-ccp-props='{"134233279":true}' data-wac-het="1"><img alt="" height="171" src="./../images/001.PNG" width="717"/></span><span data-contrast="none"><span data-wac-het="1">如遇上需要帶上</span></span><span data-contrast="none"><span data-wac-het="1">querystring</span></span><span data-contrast="none"><span data-wac-het="1">參數可以這樣使用：</span></span><span data-ccp-props="{}" data-wac-het="1"> </span><span data-ccp-props="{}" data-wac-het="1"><img alt="" height="247" src="./../images/002.PNG" width="739"/></span><span data-contrast="none"><span data-wac-het="1">參考</span></span><span data-contrast="none"><span data-wac-het="1">文獻:</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><a href="https://ithelp.ithome.com.tw/articles/10206215%EF%BF%BDHYPERLINK%20%22https://ithelp.ithome.com.tw/articles/10206215%22"><span data-contrast="none"><span data-ccp-charstyle="Hyperlink" data-wac-het="1">https://ithelp.ithome.com.tw/articles/10206215</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="auto"><span data-wac-het="1">﷟HYPERLINK "https://ithelp.ithome.com.tw/articles/10206215"</span></span></a><span data-contrast="none"><span data-wac-het="1">(2)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">ast模組</span></span><span data-contrast="none"><span data-wac-het="1">:<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">此</span><span data-wac-het="1">模組是python原始碼到位元組碼的一種中間產物，藉助ast</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">模組可以從語法樹的角度分析原始碼結構，其中的語法ast.literal_eval</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">是為了能夠安全地評估表達式節點或包含Python文字或容器顯示的字符</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">串。提供的字符串或節點只能由以下Python文字結構組成：字符串、字</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">節、數字、元組、列表、字典、集合、布林值、None。</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><i><span data-contrast="none"><span data-ccp-parastyle="heading 4" data-wac-het="1">Compile函式</span></span></i><span data-ccp-props='{"335559738":40,"335559739":0}' data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">先簡單瞭解一下compile函式。</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">compile(</span><span data-wac-het="1">source, filename, mode[, flags[,<span> </span></span><span data-wac-het="1">dont_inherit</span><span data-wac-het="1">]]) </span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<ul>
+<li data-aria-level="1" data-aria-posinset="1" data-font="Symbol" data-leveltext="" data-listid="3"><span data-contrast="none"><span data-wac-het="1">source --<span> </span></span><span data-wac-het="1">字串或者AST（Abstract</span><span data-wac-het="1"><span> </span>Syntax<span> </span></span><span data-wac-het="1">Trees）物件。一般可將整個py檔案內容file.read</span><span data-wac-het="1">()</span><span data-wac-het="1">傳入</span><span data-wac-het="1">。</span></span><span data-ccp-props='{"134233279":true}' data-wac-het="1"> </span></li>
+<li data-aria-level="1" data-aria-posinset="2" data-font="Symbol" data-leveltext="" data-listid="3"><span data-contrast="none"><span data-wac-het="1">filename --<span> </span></span><span data-wac-het="1">程式碼檔名稱，如果不是從檔案讀取程式碼則傳遞一些可辨認的值</span><span data-wac-het="1">。</span></span><span data-ccp-props='{"134233279":true}' data-wac-het="1"> </span></li>
+<li data-aria-level="1" data-aria-posinset="3" data-font="Symbol" data-leveltext="" data-listid="3"><span data-contrast="none"><span data-wac-het="1">mode --<span> </span></span><span data-wac-het="1">指定編譯程式碼的種類。可以指定為</span><span data-wac-het="1"><span> </span>exec, eval, single。</span></span><span data-ccp-props='{"134233279":true}' data-wac-het="1"> </span></li>
+<li data-aria-level="1" data-aria-posinset="4" data-font="Symbol" data-leveltext="" data-listid="3"><span data-contrast="none"><span data-wac-het="1">flags --<span> </span></span><span data-wac-het="1">變數作用域，區域性名稱空間，如果被提供，可以是任何對映物件</span><span data-wac-het="1">。</span></span><span data-ccp-props='{"134233279":true}' data-wac-het="1"> </span></li>
+</ul>
+<ul>
+<li data-aria-level="1" data-aria-posinset="1" data-font="Symbol" data-leveltext="" data-listid="3"><span data-contrast="none"><span data-wac-het="1">flags和dont_inherit是用來控制編譯原始碼時的標誌</span><span data-wac-het="1">。</span></span><span data-ccp-props='{"134233279":true}' data-wac-het="1"> </span></li>
+</ul>
+<p><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="none"><span data-wac-het="1">參考</span><span data-wac-het="1">文獻:</span></span><a href="https://www.itread01.com/content/1544847254.html%EF%BF%BDHYPERLINK%20%22https://www.itread01.com/content/1544847254.html%22"><span data-contrast="none"><span data-ccp-charstyle="Hyperlink" data-wac-het="1">https://www.itread01.com/content/1544847254.html</span></span><span data-wac-het="2"><span> </span><br/></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="auto"><span data-wac-het="1">﷟HYPERLINK "https://www.itread01.com/content/1544847254.html"</span></span></a><span data-contrast="none"><span data-wac-het="1">(3)<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">random模組:此模組用於生成偽隨機數，且有許多種用法，例如:隨機選取</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">choice、隨機選取</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>sample (</span></span><span data-contrast="none"><span data-wac-het="1">一次選多筆</span><span data-wac-het="1">資料</span></span><span data-contrast="none"><span data-wac-het="1">)</span><span data-wac-het="1">、</span></span><span data-contrast="none"><span data-wac-het="1">隨機調換順序</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>shuffle (就</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">地調換</span></span><span data-contrast="none"><span data-wac-het="1">順序)</span></span><span data-contrast="none"><span data-wac-het="1">、隨機取得亂數 random (0~1之間的隨機亂數)、隨機取得亂</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">數 uniform<span> </span></span><span data-wac-het="1">(可以</span><span data-wac-het="1">指定範圍)。</span></span><span data-wac-het="2"><span> </span><br/></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">參考</span><span data-wac-het="1">文獻:</span><span data-wac-het="1"><span> </span></span></span><a href="https://ithelp.ithome.com.tw/articles/10207483"><span data-contrast="none"><span data-ccp-charstyle="Hyperlink" data-wac-het="1">https://ithelp.ithome.com.tw/articles/10207483</span></span></a><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">(4)<span> </span></span><span data-wac-het="1">for迴圈</span><span data-wac-het="1">:<span> </span></span><span data-wac-het="1">在處理資料的時候，時常會需要重複執行某些相同的步驟；而迴</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">圈<span> </span></span><span data-wac-het="1">(loop</span><span data-wac-het="1">) 的作用是讓指定的某段敘述在條件符合的情況下一直重覆執行，</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">是程式設計中很重要的一種控制結構，且分為兩</span><span data-wac-het="1">類:</span><span data-wac-het="1">for、while</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">○<span> </span></span><span data-wac-het="1">for迴圈基本</span></span><span data-contrast="none"><span data-wac-het="1">語法:</span></span><span data-contrast="none"><span data-wac-het="1">for<span> </span></span><span data-wac-het="1">變數</span><span data-wac-het="1"><span> </span>in<span> </span></span><span data-wac-het="1">list、字串、range</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">○<span> </span></span><span data-wac-het="1">while迴圈基本</span></span><span data-contrast="none"><span data-wac-het="1">語法:</span></span><span data-contrast="none"><span data-wac-het="1">while<span> </span></span><span data-wac-het="1">布林值</span></span><span data-wac-het="2"><span> </span><br/></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1"> <span> </span></span><span data-wac-het="1">for迴圈及while迴圈</span></span><span data-contrast="none"><span data-wac-het="1">比較:</span><span data-wac-het="1"><span> </span></span></span><span data-contrast="none"><span data-wac-het="1">for迴圈比較適用在已知迴圈數的問題，而</span></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">while迴圈則適用在「無法預知迴圈數」的問題上</span><span data-wac-het="1">。</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-ccp-parastyle="heading 2" data-wac-het="1">語法 - for</span></span><span data-ccp-props='{"335559738":40,"335559739":0}' data-wac-het="1"> </span></p>
+<ul>
+<li data-aria-level="1" data-aria-posinset="1" data-font="Symbol" data-leveltext="" data-listid="1"><b><span data-contrast="none"><span data-wac-het="1">A<span> </span></span></span></b><span data-contrast="none"><span data-wac-het="1">、</span></span><b><span data-contrast="none"><span data-wac-het="1">D</span></span></b><span data-contrast="none"><span data-wac-het="1"><span> </span>都省略時，</span></span><b><span data-contrast="none"><span data-wac-het="1">for迴圈</span></span></b><span data-contrast="none"><span data-wac-het="1"><span> </span>跟<span> </span></span></span><b><span data-contrast="none"><span data-wac-het="1">while迴圈</span></span></b><span data-contrast="none"><span data-wac-het="1"><span> </span>執行起來完全一樣。</span></span><span data-ccp-props='{"134233279":true}' data-wac-het="1"> </span></li>
+</ul>
+<p><span data-contrast="none"><span data-wac-het="1">for</span></span><span data-contrast="none"><span data-wac-het="1">( [</span><span data-wac-het="1">A.]</span><span data-wac-het="1">一開始先做什麼事</span><span data-wac-het="1"><span> </span>; [B.]</span><span data-wac-het="1">條件式</span><span data-wac-het="1"><span> </span>; [D.]</span><span data-wac-het="1">等C每作完一次，就做什麼事</span><span data-wac-het="1"><span> </span>){    [C.]</span><span data-wac-het="1">當B條件成立時，就重覆做的事</span><span data-wac-het="1">...}</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">通常A、B、D所用到的變數會是一致的。</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-ccp-props="{}" data-wac-het="1"> </span><span data-contrast="none"><span data-wac-het="1">執行起來流程如下</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">先做</span></span><b><span data-contrast="none"><span data-wac-het="1">A</span></span></b><span data-contrast="none"><span data-wac-het="1"><span> </span>==&gt;<span> </span></span><span data-wac-het="1">檢查</span></span><b><span data-contrast="none"><span data-wac-het="1">B</span></span></b><span data-contrast="none"><span data-wac-het="1">條件，成立就做</span></span><b><span data-contrast="none"><span data-wac-het="1">C</span></span></b><span data-contrast="none"><span data-wac-het="1">，接著做</span></span><b><span data-contrast="none"><span data-wac-het="1">D</span></span></b><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">==&gt;<span> </span></span><span data-wac-het="1">檢查</span></span><b><span data-contrast="none"><span data-wac-het="1">B</span></span></b><span data-contrast="none"><span data-wac-het="1">條件，成立就做</span></span><b><span data-contrast="none"><span data-wac-het="1">C</span></span></b><span data-contrast="none"><span data-wac-het="1">，接著做</span></span><b><span data-contrast="none"><span data-wac-het="1">D</span></span></b><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">==&gt;<span> </span></span><span data-wac-het="1">檢查</span></span><b><span data-contrast="none"><span data-wac-het="1">B</span></span></b><span data-contrast="none"><span data-wac-het="1">條件，成立就做</span></span><b><span data-contrast="none"><span data-wac-het="1">C</span></span></b><span data-contrast="none"><span data-wac-het="1">，接著做</span></span><b><span data-contrast="none"><span data-wac-het="1">D</span></span></b><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">...</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">...</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">==&gt;<span> </span></span><span data-wac-het="1">檢查</span></span><b><span data-contrast="none"><span data-wac-het="1">B</span></span></b><span data-contrast="none"><span data-wac-het="1">條件，成立就做</span></span><b><span data-contrast="none"><span data-wac-het="1">C</span></span></b><span data-contrast="none"><span data-wac-het="1">，接著做</span></span><b><span data-contrast="none"><span data-wac-het="1">D</span></span></b><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">==&gt;<span> </span></span><span data-wac-het="1">檢查</span></span><b><span data-contrast="none"><span data-wac-het="1">B</span></span></b><span data-contrast="none"><span data-wac-het="1">條件，不成立離開</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-ccp-parastyle="heading 2" data-wac-het="1">範例1 - 班級名條</span></span><span data-ccp-props='{"335559738":40,"335559739":0}' data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-ccp-parastyle="heading 3" data-wac-het="1">code</span></span><span data-ccp-props='{"335559738":40,"335559739":0}' data-wac-het="1"> </span></p>
+<p><span data-ccp-props='{"335559738":40,"335559739":0}' data-wac-het="1"><img alt="" height="336" src="./../images/0009.PNG" width="700"/></span></p>
+<p><span data-contrast="none"><span data-wac-het="1">#</span></span><span data-contrast="none"><span data-wac-het="1">include</span></span><span data-contrast="none"><span data-wac-het="1">&lt;iostream&gt;</span></span><span data-contrast="none"><span data-wac-het="1">using</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><span data-contrast="none"><span data-wac-het="1">namespace</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><span data-contrast="none"><span data-wac-het="1">std</span></span><span data-contrast="none"><span data-wac-het="1">;</span></span><span data-contrast="none"><span data-wac-het="1">int</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span><span data-wac-het="1">main(</span><span data-wac-het="1">){   <span> </span></span></span><span data-contrast="none"><span data-wac-het="1">int</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>n;   <span> </span></span></span><span data-contrast="none"><span data-wac-het="1">int</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span><span data-wac-het="1">i</span><span data-wac-het="1">;   <span> </span></span></span><span data-contrast="none"><span data-wac-het="1">cin</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>&gt;&gt; n;   <span> </span></span></span><span data-contrast="none"><span data-wac-het="1">for</span></span><span data-contrast="none"><span data-wac-het="1">(<span> </span></span><span data-wac-het="1">i</span><span data-wac-het="1">=</span></span><span data-contrast="none"><span data-wac-het="1">1</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>;<span> </span></span><span data-wac-het="1">i</span><span data-wac-het="1">&lt;=n ;<span> </span></span><span data-wac-het="1">i</span><span data-wac-het="1">=i+</span></span><span data-contrast="none"><span data-wac-het="1">1</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span><span data-wac-het="1">)    {</span><span data-wac-het="1">       <span> </span></span></span><span data-contrast="none"><span data-wac-het="1">cout</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>&lt;&lt;<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">"No."</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>&lt;&lt;<span> </span></span><span data-wac-het="1">i</span><span data-wac-het="1"><span> </span>&lt;&lt;<span> </span></span><span data-wac-het="1">endl</span><span data-wac-het="1">;    }   <span> </span></span></span><span data-contrast="none"><span data-wac-het="1">return</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><span data-contrast="none"><span data-wac-het="1">0</span></span><span data-contrast="none"><span data-wac-het="1">;}</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-ccp-parastyle="heading 3" data-wac-het="1">for<span> </span></span><span data-ccp-parastyle="heading 3" data-wac-het="1">vs</span><span data-ccp-parastyle="heading 3" data-wac-het="1"><span> </span>while</span></span><span data-ccp-props='{"335559738":40,"335559739":0}' data-wac-het="1"> </span></p>
+<p><span data-ccp-props='{"335559738":40,"335559739":0}' data-wac-het="1"><img alt="" height="403" src="./../images/0010.PNG" width="640"/></span></p>
+<p><span data-contrast="none"><span data-wac-het="1">input</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">10</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-ccp-parastyle="heading 3" data-wac-het="1">output</span></span><span data-ccp-props='{"335559738":40,"335559739":0}' data-wac-het="1"> </span></p>
+<p><span data-contrast="none"><span data-wac-het="1">No.1No.2No.3No.4No.5No.6No.7No.8No.9No.10</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">範例2 - 發射倒數</span></span><span data-ccp-props="{}" data-wac-het="1"> </span></p>
+<p><span data-ccp-props="{}" data-wac-het="1"><img alt="" height="312" src="./../images/0011.PNG" width="714"/></span></p>
+<ul>
+<li data-aria-level="1" data-aria-posinset="1" data-font="Symbol" data-leveltext="" data-listid="1"><span data-contrast="none"><span data-wac-het="1">也可以是做完一次就減少</span></span><span data-contrast="none"><span data-wac-het="1">i</span></span><span data-ccp-props='{"134233279":true}' data-wac-het="1"> </span></li>
+</ul>
+<p><span data-contrast="none"><span data-wac-het="1">#</span></span><span data-contrast="none"><span data-wac-het="1">include</span></span><span data-contrast="none"><span data-wac-het="1">&lt;iostream&gt;</span></span><span data-contrast="none"><span data-wac-het="1">using</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><span data-contrast="none"><span data-wac-het="1">namespace</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><span data-contrast="none"><span data-wac-het="1">std</span></span><span data-contrast="none"><span data-wac-het="1">;</span></span><span data-contrast="none"><span data-wac-het="1">int</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><span data-contrast="none"><span data-wac-het="1">main(</span></span><span data-contrast="none"><span data-wac-het="1">){</span><span data-wac-het="1">   <span> </span></span></span><span data-contrast="none"><span data-wac-het="1">int</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><span data-contrast="none"><span data-wac-het="1">i</span></span><span data-contrast="none"><span data-wac-het="1">;   <span> </span></span></span><span data-contrast="none"><span data-wac-het="1">for</span></span><span data-contrast="none"><span data-wac-het="1">(<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">i</span></span><span data-contrast="none"><span data-wac-het="1">=</span></span><span data-contrast="none"><span data-wac-het="1">5</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>;<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">i</span></span><span data-contrast="none"><span data-wac-het="1">&gt;=</span></span><span data-contrast="none"><span data-wac-het="1">1</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>;<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">i</span></span><span data-contrast="none"><span data-wac-het="1">=i-</span></span><span data-contrast="none"><span data-wac-het="1">1</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><span data-contrast="none"><span data-wac-het="1">)    {</span></span><span data-contrast="none"><span data-wac-het="1">       <span> </span></span></span><span data-contrast="none"><span data-wac-het="1">cout</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>&lt;&lt;<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">i</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>&lt;&lt;<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">"...</span></span><span data-contrast="none"><span data-wac-het="1">"</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>&lt;&lt;<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">endl</span></span><span data-contrast="none"><span data-wac-het="1">;    }</span><span data-wac-het="1">   <span> </span></span></span><span data-contrast="none"><span data-wac-het="1">cout</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>&lt;&lt;<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">"Go!"</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span>&lt;&lt;<span> </span></span></span><span data-contrast="none"><span data-wac-het="1">endl</span></span><span data-contrast="none"><span data-wac-het="1">;   <span> </span></span></span><span data-contrast="none"><span data-wac-het="1">return</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><span data-contrast="none"><span data-wac-het="1">0</span></span><span data-contrast="none"><span data-wac-het="1">;}</span></span><span data-wac-het="2"><span> </span><br/></span><span data-wac-het="2"><span> </span><br/></span><span data-contrast="none"><span data-wac-het="1">參考</span><span data-wac-het="1">文獻:</span></span><span data-contrast="none"><span data-wac-het="1"><span> </span></span></span><a href="https://www.csie.ntu.edu.tw/~b98902112/cpp_and_algo/cpp02/for_loop.html"><span data-contrast="none"><span data-ccp-charstyle="Hyperlink" data-wac-het="1">https://www.csie.ntu.edu.tw/~b98902112/cpp_and_algo/cpp02/for_loop.html</span></span></a><span data-ccp-props="{}" data-wac-het="1"> </span></p><br />portable system << <a href='portable system.html'>Previous</a> <a href='Four wheel car.html'>Next</a> >> Four wheel car</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        </body></html>
+        
