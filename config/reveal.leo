@@ -438,8 +438,11 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 [OBS](https://obsproject.com/download)
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rL1jEkRMufw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20200422194223.1">@others
-</t>
+<t tx="leo.20200422194223.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
 <t tx="leo.20200422194223.2">### assignment1
 [portable system](https://github.com/s40723246/cd2020/blob/master/downloads/portable%20system/portable%20system.pdf)
 [random group](https://github.com/s40723246/cd2020/blob/master/downloads/random%20group/random%20grouping.pdf)
