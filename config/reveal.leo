@@ -362,7 +362,7 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 [40723213](https://s40723213.github.io/cd2020/content/index.html)
 [40723216](https://s40723216.github.io/cd2020/content/index.html)
 [40723223](https://s40723223.github.io/cd2020/content/index.html)
-[40723226](https://s40723246.github.io/cd2020/content/index.html).
+[40723226](https://s40723246.github.io/cd2020/content/index.html)
 [40723229](https://s40723229.github.io/cd2020/content/index.html)
 [40723230](https://s40723230.github.io/cd2020)
 [40723241](https://s40723241.github.io/cd2020/content/index.html)
@@ -384,7 +384,7 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 &lt;/section&gt;
 </t>
 <t tx="leo.20191213152359.2">### week3
-#######上傳製作完成PDF至DOWNLOADS
+####### 上傳製作完成PDF
 ######### 由成員執行任務並編譯整理製作PDF
 ####### 參考資料
 [CoppeliaSim User Manual](https://www.coppeliarobotics.com/helpFiles/index.html)</t>
@@ -434,7 +434,7 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 &lt;/section&gt;
 </t>
 <t tx="leo.20200422193102.2">### OBS
-#####OBS連接及設定往後影片頭像
+##### OBS連接及設定往後影片頭像
 [OBS](https://obsproject.com/download)
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rL1jEkRMufw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
