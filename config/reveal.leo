@@ -326,8 +326,8 @@ vertical: body pane on the botton</t>
 Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 &lt;/small&gt;
 
-#### [倉儲](https://github.com/s40723246/cd2020)
-#### [cd2020bg1](https://s40723246.github.io/cd2020-bg1/content/index.html)
+[倉儲](https://github.com/s40723246/cd2020)
+[cd2020bg1](https://s40723246.github.io/cd2020-bg1/content/index.html)
 </t>
 <t tx="leo.20191213144252.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -353,22 +353,21 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 </t>
 <t tx="leo.20191213150029.2">### cd2020bg1
 ###### 以下為組員
-######### [40723201](https://s40723201.github.io/cd2020/content/index.html)
-######### [40723206](https://s40723206.github.io/cd2020/content/index.html)
-######### [40723213](https://s40723213.github.io/cd2020/content/index.html)
-######### [40723216](https://s40723216.github.io/cd2020/content/index.html)
-######### [40723223](https://s40723223.github.io/cd2020/content/index.html)
-######### [40723226](https://s40723246.github.io/cd2020/content/index.html).
-######### [40723229](https://s40723229.github.io/cd2020/content/index.html)
-######### [40723230](https://s40723230.github.io/cd2020)
-######### [40723241](https://s40723241.github.io/cd2020/content/index.html)
-######### [40723242](https://s40723242.github.io/cd2020/content/index.html)
+[40723201](https://s40723201.github.io/cd2020/content/index.html)
+[40723206](https://s40723206.github.io/cd2020/content/index.html)
+[40723213](https://s40723213.github.io/cd2020/content/index.html)
+[40723216](https://s40723216.github.io/cd2020/content/index.html)
+[40723223](https://s40723223.github.io/cd2020/content/index.html)
+[40723226](https://s40723246.github.io/cd2020/content/index.html).
+[40723229](https://s40723229.github.io/cd2020/content/index.html)
+[40723230](https://s40723230.github.io/cd2020)
+[40723241](https://s40723241.github.io/cd2020/content/index.html)
+[40723242](https://s40723242.github.io/cd2020/content/index.html)
 </t>
 <t tx="leo.20191213152115.1">@others
 </t>
 <t tx="leo.20191213152115.2">### week6
 ##### 第一組第二次直播會議
-
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Q0R_g1xw3dQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191213152359.1">@others
 </t>
@@ -404,7 +403,7 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 </t>
 <t tx="leo.20200422193102.2">### OBS
 #####OBS連接及設定往後影片頭像
-#######[OBS](https://obsproject.com/download)
+[OBS](https://obsproject.com/download)
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rL1jEkRMufw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20200422194223.1">@others
