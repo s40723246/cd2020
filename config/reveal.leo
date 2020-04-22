@@ -349,7 +349,11 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
-<t tx="leo.20191213150029.1">@others
+<t tx="leo.20191213150029.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 </t>
 <t tx="leo.20191213150029.2">### cd2020bg1
 ###### 以下為組員
@@ -364,42 +368,70 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 [40723241](https://s40723241.github.io/cd2020/content/index.html)
 [40723242](https://s40723242.github.io/cd2020/content/index.html)
 </t>
-<t tx="leo.20191213152115.1">@others
+<t tx="leo.20191213152115.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 </t>
 <t tx="leo.20191213152115.2">### week6
 ##### 第一組第二次直播會議
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Q0R_g1xw3dQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20191213152359.1">@others
+<t tx="leo.20191213152359.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 </t>
 <t tx="leo.20191213152359.2">### week3
 #######上傳製作完成PDF至DOWNLOADS
 ######### 由成員執行任務並編譯整理製作PDF
 ####### 參考資料
 [CoppeliaSim User Manual](https://www.coppeliarobotics.com/helpFiles/index.html)</t>
-<t tx="leo.20191213152656.1">@others
+<t tx="leo.20191213152656.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 </t>
 <t tx="leo.20191213152656.2">### week1
 ##### 創建新的倉儲cd2020
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JQrKRM6t3_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20191213153119.1">@others
+<t tx="leo.20191213153119.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 </t>
 <t tx="leo.20191213153119.2">### week4
 ##### 本周回報影片
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/z548viRDp7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20200422192231.1">@others
+<t tx="leo.20200422192231.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 </t>
 <t tx="leo.20200422192231.2">### week2
 ##### 第一組第一次直播會議
 [meeting1](https://github.com/s40723246/cd2020/blob/master/downloads/meeting%20PDF/meeting%20first.pdf)
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/062ZSwlIKT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20200422192233.1">@others
+<t tx="leo.20200422192233.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 </t>
 <t tx="leo.20200422192233.2">### week7
 ##### 四輪車的基本外型設置
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5WITj17eW8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20200422193102.1">@others
+<t tx="leo.20200422193102.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 </t>
 <t tx="leo.20200422193102.2">### OBS
 #####OBS連接及設定往後影片頭像
