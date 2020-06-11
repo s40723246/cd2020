@@ -399,13 +399,9 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 &lt;/section&gt;
 </t>
 <t tx="leo.20191213152359.2">### week3
-
-####### 上傳製作完成PDF
-
-######## 由成員執行任務並編譯整理製作PDF
-
-####### 參考資料
-
+#### 上傳製作完成PDF
+#### 由成員執行任務並編譯整理製作PDF
+#### 參考資料
 [CoppeliaSim User Manual](https://www.coppeliarobotics.com/helpFiles/index.html)</t>
 <t tx="leo.20191213152656.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
