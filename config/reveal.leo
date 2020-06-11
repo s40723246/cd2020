@@ -49,6 +49,21 @@
 <v t="leo.20200422192233.1"><vh>week7</vh>
 <v t="leo.20200422192233.2"><vh>week7-1</vh></v>
 </v>
+<v t="leo.20200611144056.1"><vh>week8</vh>
+<v t="leo.20200611144056.2"><vh>week8-1</vh></v>
+</v>
+<v t="leo.20200611144059.1"><vh>week10</vh>
+<v t="leo.20200611144059.2"><vh>week10-1</vh></v>
+</v>
+<v t="leo.20200611144101.1"><vh>week11</vh>
+<v t="leo.20200611144101.2"><vh>week11-1</vh></v>
+</v>
+<v t="leo.20200611144103.1"><vh>week12</vh>
+<v t="leo.20200611144103.2"><vh>week12-1</vh></v>
+</v>
+<v t="leo.20200611144145.1"><vh>week13</vh>
+<v t="leo.20200611144145.2"><vh>week13-1</vh></v>
+</v>
 <v t="leo.20191213144252.1"><vh>快捷鍵</vh>
 <v t="leo.20191213144252.2"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -384,9 +399,13 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 &lt;/section&gt;
 </t>
 <t tx="leo.20191213152359.2">### week3
+
 ####### 上傳製作完成PDF
-######### 由成員執行任務並編譯整理製作PDF
+
+######## 由成員執行任務並編譯整理製作PDF
+
 ####### 參考資料
+
 [CoppeliaSim User Manual](https://www.coppeliarobotics.com/helpFiles/index.html)</t>
 <t tx="leo.20191213152656.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -447,5 +466,50 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 [portable system](https://github.com/s40723246/cd2020/blob/master/downloads/portable%20system/portable%20system.pdf)
 [random group](https://github.com/s40723246/cd2020/blob/master/downloads/random%20group/random%20grouping.pdf)
 [four wheel](https://github.com/s40723246/cd2020/blob/master/downloads/four%20wheel%20pdf/%E6%A8%A1%E6%93%AC.pdf)</t>
+<t tx="leo.20200611144056.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200611144056.2">### week8
+##### 運用meeting進行直播 (meet) 
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/T3PWWPAqDgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200611144059.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200611144059.2">### week10
+##### google用戶登陸API
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/HT7gmy6h71g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200611144101.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200611144101.2">### week11
+##### ubuntu設置
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/yxK3Fz9sHO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200611144103.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200611144103.2">### week12
+##### ubnutu對外連線(ipv4)
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/9-MtI-b946k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200611144145.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200611144145.2">### week13
+##### IPV6下伺服器連線設定
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-KX0SRDii-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
