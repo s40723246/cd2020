@@ -64,6 +64,18 @@
 <v t="leo.20200611144145.1"><vh>week13</vh>
 <v t="leo.20200611144145.2"><vh>week13-1</vh></v>
 </v>
+<v t="leo.20200624103116.1"><vh>week14</vh>
+<v t="leo.20200624103116.2"><vh>week14-1</vh></v>
+</v>
+<v t="leo.20200624103118.1"><vh>week15</vh>
+<v t="leo.20200624103118.2"><vh>week15-1</vh></v>
+</v>
+<v t="leo.20200624103120.1"><vh>week16</vh>
+<v t="leo.20200624103120.2"><vh>week16-1</vh></v>
+</v>
+<v t="leo.20200624103124.1"><vh>week17</vh>
+<v t="leo.20200624103124.2"><vh>week17-1</vh></v>
+</v>
 <v t="leo.20191213144252.1"><vh>快捷鍵</vh>
 <v t="leo.20191213144252.2"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -507,5 +519,51 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 <t tx="leo.20200611144145.2">### week13
 ##### IPV6下伺服器連線設定
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-KX0SRDii-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200624103116.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200624103116.2">### week13
+##### 虛擬主機及ubnutu bug解決方式
+[W14抽點網站:](http://mde.tw/cdbw14-3)
+
+[W14抽點倉儲:](https://github.com/mdecourse/cdbw14-3.git)
+
+</t>
+<t tx="leo.20200624103118.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200624103118.2">### week15
+##### 內容簡介:
+
+## 1.上周對於遠端連線之網路問題
+
+## 2.debug的解決方式及圖片
+
+## 3.遠端連線ipv6及ipv4的設定流程</t>
+<t tx="leo.20200624103120.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200624103120.2">### week16
+##### 個人網站對外連線設定:
+
+#### 輸入網址https://[2001:288:6004:17:2020:2:0:7246]:19443 (自己的ip)</t>
+<t tx="leo.20200624103124.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200624103124.2">### week17
+##### 期末報告
+</t>
 </tnodes>
 </leo_file>
