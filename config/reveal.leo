@@ -525,11 +525,12 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200624103116.2">### week13
+<t tx="leo.20200624103116.2">### week14
 ##### 虛擬主機及ubnutu bug解決方式
-[W14抽點網站:](http://mde.tw/cdbw14-3)
 
-[W14抽點倉儲:](https://github.com/mdecourse/cdbw14-3.git)
+[W14抽點網站](http://mde.tw/cdbw14-3)
+
+[W14抽點倉儲](https://github.com/mdecourse/cdbw14-3.git)
 
 </t>
 <t tx="leo.20200624103118.1">&lt;section data-markdown&gt;
@@ -539,13 +540,13 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 &lt;/section&gt;
 </t>
 <t tx="leo.20200624103118.2">### week15
-##### 內容簡介:
+#### 內容簡介:
 
-## 1.上周對於遠端連線之網路問題
+##### 1.上周對於遠端連線之網路問題
 
-## 2.debug的解決方式及圖片
+##### 2.debug的解決方式及圖片
 
-## 3.遠端連線ipv6及ipv4的設定流程</t>
+##### 3.遠端連線ipv6及ipv4的設定流程</t>
 <t tx="leo.20200624103120.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -564,6 +565,7 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 </t>
 <t tx="leo.20200624103124.2">### week17
 ##### 期末報告
-</t>
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zzApD98DmfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
