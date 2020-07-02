@@ -28,7 +28,7 @@
 <v t="leo.20191213152656.1"><vh>week1</vh>
 <v t="leo.20191213152656.2"><vh>week1-1</vh></v>
 </v>
-<v t="leo.20200422192231.1"><vh>week2</vh>
+<v t="leo.20200422192231.1"><vh>meeting-1</vh>
 <v t="leo.20200422192231.2"><vh>week2-1</vh></v>
 </v>
 <v t="leo.20200422194223.1"><vh>PDF</vh>
@@ -43,7 +43,7 @@
 <v t="leo.20200422193102.1"><vh>OBS</vh>
 <v t="leo.20200422193102.2"><vh>week6-0</vh></v>
 </v>
-<v t="leo.20191213152115.1"><vh>week6</vh>
+<v t="leo.20191213152115.1"><vh>meeting-2</vh>
 <v t="leo.20191213152115.2"><vh>week6-1</vh></v>
 </v>
 <v t="leo.20200422192233.1"><vh>week7</vh>
@@ -52,11 +52,17 @@
 <v t="leo.20200611144056.1"><vh>week8</vh>
 <v t="leo.20200611144056.2"><vh>week8-1</vh></v>
 </v>
+<v t="leo.20200701200644.1"><vh>meeting-3</vh>
+<v t="leo.20200701200644.2"><vh>meeting-3</vh></v>
+</v>
 <v t="leo.20200611144059.1"><vh>week10</vh>
 <v t="leo.20200611144059.2"><vh>week10-1</vh></v>
 </v>
 <v t="leo.20200611144101.1"><vh>week11</vh>
 <v t="leo.20200611144101.2"><vh>week11-1</vh></v>
+</v>
+<v t="leo.20200701201003.1"><vh>meeting-4</vh>
+<v t="leo.20200701201003.2"><vh>meeting-4</vh></v>
 </v>
 <v t="leo.20200611144103.1"><vh>week12</vh>
 <v t="leo.20200611144103.2"><vh>week12-1</vh></v>
@@ -72,6 +78,9 @@
 </v>
 <v t="leo.20200624103120.1"><vh>week16</vh>
 <v t="leo.20200624103120.2"><vh>week16-1</vh></v>
+</v>
+<v t="leo.20200701201336.1"><vh>meeting-5</vh>
+<v t="leo.20200701201336.2"><vh>meeting-5</vh></v>
 </v>
 <v t="leo.20200624103124.1"><vh>week17</vh>
 <v t="leo.20200624103124.2"><vh>week17-1</vh></v>
@@ -189,7 +198,7 @@ make.start()
 <t tx="leo.20180902120523.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-CMSimfly 網際內容管理
+40723246 cd2020
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -345,16 +354,16 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213144237.2">### s40723246 網際內容管理
+<t tx="leo.20191213144237.2">## 40723246 網際內容管理
 
-#### KMOLab
+### 40723246cd2020
 
 &lt;small&gt;
 Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 &lt;/small&gt;
 
-[倉儲](https://github.com/s40723246/cd2020)
-[cd2020bg1](https://s40723246.github.io/cd2020-bg1/content/index.html)
+
+
 </t>
 <t tx="leo.20191213144252.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -401,7 +410,7 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20191213152115.2">### week6
+<t tx="leo.20191213152115.2">### meeting-2
 ##### 第一組第二次直播會議
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Q0R_g1xw3dQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191213152359.1">&lt;section data-markdown&gt;
@@ -440,7 +449,7 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200422192231.2">### week2
+<t tx="leo.20200422192231.2">### meeting-1
 ##### 第一組第一次直播會議
 [meeting1](https://github.com/s40723246/cd2020/blob/master/downloads/meeting%20PDF/meeting%20first.pdf)
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/062ZSwlIKT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
@@ -451,16 +460,16 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200422192233.2">### week7
-##### 四輪車的基本外型設置
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5WITj17eW8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200422192233.2">### week6
+##### 第一組第二次直播會議
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Q0R_g1xw3dQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200422193102.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200422193102.2">### OBS
+<t tx="leo.20200422193102.2">### week6
 ##### OBS連接及設定往後影片頭像
 [OBS](https://obsproject.com/download)
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rL1jEkRMufw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
@@ -469,7 +478,8 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20200422194223.2">### assignment1
 [portable system](https://github.com/s40723246/cd2020/blob/master/downloads/portable%20system/portable%20system.pdf)
 [random group](https://github.com/s40723246/cd2020/blob/master/downloads/random%20group/random%20grouping.pdf)
@@ -482,7 +492,7 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 </t>
 <t tx="leo.20200611144056.2">### week8
 ##### 運用meeting進行直播 (meet) 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/T3PWWPAqDgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Tlc-ZAum1WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200611144059.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -567,5 +577,33 @@ Created by [鄭竣元](https://s40723246.github.io/cd2020/content/index.html)
 ##### 期末報告
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zzApD98DmfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701200644.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200701200644.2">### meeting-3
+##### 第一組第三次直播會議
+[meeting3](https://github.com/s40723246/cd2020/blob/master/downloads/meeting%20PDF/meeting%20first.pdf)
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/T3PWWPAqDgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701201003.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200701201003.2">### meeting-4
+##### 第一組第四次直播會議
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/lQDkfyxvzb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701201336.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200701201336.2">### meeting-5
+##### 第一組第五次直播會議
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/lQDkfyxvzb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
